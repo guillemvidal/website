@@ -24,8 +24,8 @@ role: Science for policy
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Generalitat de Catalunya
-    url: https://web.gencat.cat/ca/inici
+  - name:
+    url:
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -179,4 +179,8 @@ awards:
 
 ## About Me
 
-Guillem Vidal Lorda is...
+I’m a social scientist working at the intersection of political economy, comparative politics, and social policy. My work focuses on generating actionable research to inform public policy.
+
+I currently work in social policy at the Generalitat de Catalunya. Previously, I held positions at the Spanish Government’s Directorate-General for Strategy and Foresight (Moncloa) and at the European Commission’s Joint Research Centre. I have also held academic research posts at the WZB Berlin Social Science Center and LMU Munich.
+
+I hold a Ph.D. in political and social sciences from the European University Institute, and earlier degrees in economics and international relations. My research examines how institutions shape inequality, welfare, and political conflict in advanced democracies, and has been published in West European Politics, Party Politics, Nations and Nationalism, and by Cambridge University Press.
