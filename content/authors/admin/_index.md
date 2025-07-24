@@ -70,15 +70,34 @@ education:
     date_end: 2010-01-01
     summary: |
       Selected Courses: Economics of European Integration, Political Economy, Advanced Macroeconomics, Econometrics, Public Sector Economics.
+
 work:
   - position: Director, Universal Basic Income Office
     company_name: Generalitat de Catalunya
     company_url: https://catalangovernment.eu
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2025-01-01
     date_end: ''
     summary: |
       Leading the design and implementation of universal basic income policy, bridging research and practice in socioeconomic policy.
+
+  - position: Project Officer, Artificial Intelligence and Employment
+    company_name: Joint Research Centre (JRC), European Commission
+    company_url: https://joint-research-centre.ec.europa.eu
+    company_logo: ''
+    date_start: 2024-01-01
+    date_end: 2025-01-01
+    summary: |
+      Researcher in the Employment Team (Unit B6 – Industrial Strategy, Skills and Knowledge Transfer), working on the impact of artificial intelligence on employment structures and policy responses.
+
+  - position: Project Officer, DIGCLASS – Social Classes in the Digital Age
+    company_name: Joint Research Centre (JRC), European Commission
+    company_url: https://joint-research-centre.ec.europa.eu
+    company_logo: ''
+    date_start: 2021-01-01
+    date_end: 2024-01-01
+    summary: |
+      Led research in the DIGCLASS project, focusing on the transformation of social class structures in the context of digitalization and technological change.
 
   - position: Project Officer, Spain 2050
     company_name: Office of Foresight and Strategy, Spanish Government’s Presidency
@@ -87,7 +106,7 @@ work:
     date_start: 2020-01-01
     date_end: 2021-01-01
     summary: |
-      Project Officer in *Spain 2050: Fundamentals and Proposals for a Long-Term National Strategy*, a national strategic foresight initiative :contentReference[oaicite:1]{index=1}.
+      Project Officer in *Spain 2050: Fundamentals and Proposals for a Long-Term National Strategy*.
 
   - position: Postdoctoral Researcher
     company_name: WZB Berlin Social Science Center and Geschwister Scholl Institute, LMU Munich
@@ -96,7 +115,7 @@ work:
     date_start: 2019-01-01
     date_end: 2020-01-01
     summary: |
-      Researcher in the DfG‑funded project *EUPOL* on European elections and political structuring :contentReference[oaicite:2]{index=2}.
+      Researcher in the DfG-funded project *EUPOL* on European elections and political structuring.
 
   - position: Doctoral Researcher
     company_name: Department of Political and Social Sciences, European University Institute (EUI)
@@ -105,7 +124,7 @@ work:
     date_start: 2014-01-01
     date_end: 2019-01-01
     summary: |
-      Ph.D. researcher in the ERC‑funded project *POLCON* on political conflict in Europe during the Great Recession :contentReference[oaicite:3]{index=3}.
+      Ph.D. researcher in the ERC-funded project *POLCON* on political conflict in Europe during the Great Recession.
 
   - position: Research Assistant
     company_name: Institut Barcelona d’Estudis Internacionals (IBEI-UPF)
@@ -114,7 +133,7 @@ work:
     date_start: 2012-01-01
     date_end: 2014-01-01
     summary: |
-      Researcher in the project *WAYS OUT* on individual and collective disengagement from terrorism in Spain :contentReference[oaicite:4]{index=4}.
+      Researcher in the project *WAYS OUT* on individual and collective disengagement from terrorism in Spain.
 
 
 # Skills
