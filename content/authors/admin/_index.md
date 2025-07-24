@@ -75,7 +75,7 @@ work:
   - position: Director, Universal Basic Income Office
     company_name: Generalitat de Catalunya
     company_url: https://gencat.cat
-    company_logo: 'assets/media/gencat.svg'
+    company_logo: gencat.svg
     date_start: 2024-10-01
     date_end: ''
     summary: |
