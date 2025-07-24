@@ -179,8 +179,8 @@ awards:
 
 ## About Me
 
-I’m a social scientist working at the intersection of political economy and public policy. My focus is on producing **actionable research to inform governments and institutions**.
+I’m a social scientist working at the intersection of political economy and public policy. My focus is on producing **actionable research to inform governments and institutions**, especially on inequality, welfare, and socioeconomic policy.
 
 I’ve worked in both academia and the public sector, including roles at the Generalitat de Catalunya, the Spanish government, and the European Commission.
 
-I hold a Ph.D. in Social and Political Sciences from the European University Institute, with a background in economics and international relations. My research has been published in leading journals such as West European Politics, Party Politics and Cambridge University Press.
+I hold a Ph.D. in Social and Political Sciences from the European University Institute, with a background in economics and international relations. My research has been published in leading outlets such as the *Journal of European Social Policy*, *European Journal of Political Research*, and by *Cambridge University Press*.
