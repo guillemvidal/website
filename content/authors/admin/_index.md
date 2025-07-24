@@ -119,15 +119,6 @@ work:
     summary: |
       Ph.D. researcher in the ERC-funded project *POLCON* on political conflict in Europe during the Great Recession.
 
-  - position: Research Assistant
-    company_name: Institut Barcelona d’Estudis Internacionals (IBEI-UPF)
-    company_url: https://www.upf.edu/en/web/masters/ibei-institut-barcelona-d-estudis-internacionals
-    company_logo: ''
-    date_start: 2012-01-01
-    date_end: 2014-01-01
-    summary: |
-      Researcher in the project *WAYS OUT* on individual and collective disengagement from terrorism in Spain.
-
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
