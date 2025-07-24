@@ -75,8 +75,8 @@ work:
   - position: Director, Universal Basic Income Office
     company_name: Generalitat de Catalunya
     company_url: https://gencat.cat
-    company_logo: 'assets/media/gencat.png'
-    date_start: 2025-01-01
+    company_logo: 'assets/media/gencat.svg'
+    date_start: 2024-10-01
     date_end: ''
     summary: |
       Leading the design and implementation of universal basic income policy, bridging research and practice in socioeconomic policy.
@@ -99,7 +99,7 @@ work:
     summary: |
       Led research in the DIGCLASS project, focusing on the transformation of social class structures in the context of digitalization and technological change.
 
-  - position: Project Officer, Spain 2050
+  - position: Project Officer, Government of Spain
     company_name: Office of Foresight and Strategy, Spanish Government’s Presidency
     company_url: https://www.futuros.gob.es/en/office
     company_logo: ''
