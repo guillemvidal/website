@@ -50,49 +50,72 @@ interests:
 education:
   - area: PhD Social & Political Science
     institution: European University Institute
-    date_start: 2014
-    date_end: 2019
+    date_start: 2014-01-01
+    date_end: 2019-01-01
     summary: |
       Thesis on political behavior and conflict structures in southern Erurope during the Great Recession. Supervised by [Prof Hanspeter Kriesi](https://www.eui.eu/people?id=hanspeter-kriesi). Defended on June 13, 2019.
     button:
       text: 'Read Thesis'
       url: 'https://cadmus.eui.eu/handle/1814/63265'
   - area: MA International Relations
-    institution: Barcelona Institute of International Studies (IBEI-UPF)
-    date_start: 2012
-    date_end: 2013
+    institution: Barcelona Institute of International Studies
+    date_start: 2012-01-01
+    date_end: 2013-01-01
     summary: |
       Thesis: It’s the economy, stupid: A study on political attitudes in southern Europe in the context of the European economic crisis.
       Selected Courses: Comparative Politics, Global Governance, Peace Processes and Conflict Resolution, Poverty, Inequality and Growth.
   - area: BSc Economics
     institution: Utrecht School of Economics
-    date_start: 2007
-    date_end: 2010
+    date_start: 2007-01-01
+    date_end: 2010-01-01
     summary: |
       Selected Courses: Economics of European Integration, Political Economy, Advanced Macroeconomics, Econometrics, Public Sector Economics.
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Director, Universal Basic Income Office
+    company_name: Generalitat de Catalunya
+    company_url: https://catalangovernment.eu
     company_logo: ''
     date_start: 2021-01-01
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Leading the design and implementation of universal basic income policy, bridging research and practice in socioeconomic policy.
+
+  - position: Project Officer, Spain 2050
+    company_name: Office of Foresight and Strategy, Spanish Government’s Presidency
+    company_url: https://www.futuros.gob.es/en/office
+    company_logo: ''
+    date_start: 2020-01-01
+    date_end: 2021-01-01
+    summary: |
+      Project Officer in *Spain 2050: Fundamentals and Proposals for a Long-Term National Strategy*, a national strategic foresight initiative :contentReference[oaicite:1]{index=1}.
+
+  - position: Postdoctoral Researcher
+    company_name: WZB Berlin Social Science Center and Geschwister Scholl Institute, LMU Munich
+    company_url: 'https://www.wzb.eu/en, https://www.gsi.uni-muenchen.de'
+    company_logo: ''
+    date_start: 2019-01-01
+    date_end: 2020-01-01
+    summary: |
+      Researcher in the DfG‑funded project *EUPOL* on European elections and political structuring :contentReference[oaicite:2]{index=2}.
+
+  - position: Doctoral Researcher
+    company_name: Department of Political and Social Sciences, European University Institute (EUI)
+    company_url: https://www.eui.eu/en/academic-units/political-and-social-sciences
+    company_logo: ''
+    date_start: 2014-01-01
+    date_end: 2019-01-01
+    summary: |
+      Ph.D. researcher in the ERC‑funded project *POLCON* on political conflict in Europe during the Great Recession :contentReference[oaicite:3]{index=3}.
+
+  - position: Research Assistant
+    company_name: Institut Barcelona d’Estudis Internacionals (IBEI-UPF)
+    company_url: https://www.upf.edu/en/web/masters/ibei-institut-barcelona-d-estudis-internacionals
+    company_logo: ''
+    date_start: 2012-01-01
+    date_end: 2014-01-01
+    summary: |
+      Researcher in the project *WAYS OUT* on individual and collective disengagement from terrorism in Spain :contentReference[oaicite:4]{index=4}.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
