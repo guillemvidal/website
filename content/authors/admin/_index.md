@@ -62,7 +62,7 @@ education:
     date_start: 2012
     date_end: 2013
     summary: |
-Thesis: "It’s the economy, stupid": A study on political attitudes in southern Europe in the context of the European economic crisis.
+Thesis: It’s the economy, stupid: A study on political attitudes in southern Europe in the context of the European economic crisis.
 Selected Courses: Comparative Politics, Global Governance, Peace Processes and Conflict Resolution, Poverty, Inequality and Growth.
   - area: BSc Economics
     institution: Utrecht School of Economics
