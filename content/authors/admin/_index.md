@@ -62,14 +62,14 @@ education:
     date_start: 2012
     date_end: 2013
     summary: |
-Thesis: It’s the economy, stupid: A study on political attitudes in southern Europe in the context of the European economic crisis.
-Selected Courses: Comparative Politics, Global Governance, Peace Processes and Conflict Resolution, Poverty, Inequality and Growth.
+      Thesis: It’s the economy, stupid: A study on political attitudes in southern Europe in the context of the European economic crisis.
+      Selected Courses: Comparative Politics, Global Governance, Peace Processes and Conflict Resolution, Poverty, Inequality and Growth.
   - area: BSc Economics
     institution: Utrecht School of Economics
     date_start: 2007
     date_end: 2010
     summary: |
-Selected Courses: Economics of European Integration, Political Economy, Advanced Macroeconomics, Econometrics, Public Sector Economics.
+      Selected Courses: Economics of European Integration, Political Economy, Advanced Macroeconomics, Econometrics, Public Sector Economics.
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
