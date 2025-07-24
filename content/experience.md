@@ -10,30 +10,14 @@ design:
 
 # Page sections
 sections:
-sections:
-  - block: experience
+  - block: resume-experience
     content:
-      title: Experience
-      date_format: January 2006
-      items:
-        - title: Director, Universal Basic Income Office
-          company: Generalitat de Catalunya
-          company_url: https://gencat.cat
-          company_logo: gencat
-          date_start: 2024-10-01
-          date_end: ''
-          description: |
-            Leading the design and implementation of universal basic income policy, bridging research and practice in socioeconomic policy.
-
-        - title: Project Officer
-          company: Joint Research Centre (JRC), European Commission
-          company_url: https://joint-research-centre.ec.europa.eu
-          company_logo: jrc
-          date_start: 2021-01-01
-          date_end: 2025-01-01
-          description: |
-            - 2024–2025: AI & Employment (Unit B6 – Industrial Strategy, Skills and Knowledge Transfer)
-            - 2021–2024: DIGCLASS – Social Classes in the Digital Age
+      username: admin
+    design:
+      # Hugo date format
+      date_format: 'January 2006'
+      # Education or Experience section first?
+      is_education_first: false
   - block: resume-skills
     content:
       title: Skills & Hobbies
