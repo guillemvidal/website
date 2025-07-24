@@ -3,7 +3,7 @@
 title: Guillem Vidal Lorda
 
 # Name pronunciation (optional)
-name_pronunciation: ''
+name_pronunciation:
 
 # Full name (for SEO)
 first_name: Guillem
@@ -50,35 +50,26 @@ interests:
 education:
   - area: PhD Social & Political Science
     institution: European University Institute
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2014
+    date_end: 2019
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on political behavior and conflict structures in southern Erurope during the Great Recession. Supervised by [Prof Hanspeter Kriesi](https://www.eui.eu/people?id=hanspeter-kriesi). Defended on June 13, 2019.
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      url: 'https://cadmus.eui.eu/handle/1814/63265'
+  - area: MA International Relations
+    institution: Barcelona Institute of International Studies (IBEI-UPF)
+    date_start: 2012
+    date_end: 2013
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+Thesis: "It’s the economy, stupid": A study on political attitudes in southern Europe in the context of the European economic crisis.
+Selected Courses: Comparative Politics, Global Governance, Peace Processes and Conflict Resolution, Poverty, Inequality and Growth.
+  - area: BSc Economics
+    institution: Utrecht School of Economics
+    date_start: 2007
+    date_end: 2010
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+Selected Courses: Economics of European Integration, Political Economy, Advanced Macroeconomics, Econometrics, Public Sector Economics.
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
