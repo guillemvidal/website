@@ -75,31 +75,24 @@ work:
   - position: Director, Universal Basic Income Office
     company_name: Generalitat de Catalunya
     company_url: https://gencat.cat
-    company_logo: gencat.svg
+    company_logo: gencat
     date_start: 2024-10-01
     date_end: ''
     summary: |
       Leading the design and implementation of universal basic income policy, bridging research and practice in socioeconomic policy.
 
-  - position: Project Officer, Artificial Intelligence and Employment
-    company_name: Joint Research Centre (JRC), European Commission
-    company_url: https://joint-research-centre.ec.europa.eu
-    company_logo: ''
-    date_start: 2024-01-01
-    date_end: 2025-01-01
-    summary: |
-      Researcher in the Employment Team (Unit B6 – Industrial Strategy, Skills and Knowledge Transfer), working on the impact of artificial intelligence on employment structures and policy responses.
-
-  - position: Project Officer, DIGCLASS – Social Classes in the Digital Age
+  - position: Project Officer
     company_name: Joint Research Centre (JRC), European Commission
     company_url: https://joint-research-centre.ec.europa.eu
     company_logo: ''
     date_start: 2021-01-01
-    date_end: 2024-01-01
+    date_end: 2025-01-01
     summary: |
-      Led research in the DIGCLASS project, focusing on the transformation of social class structures in the context of digitalization and technological change.
+      Conducted applied policy research within the European Commission's in-house science service.
+      - 2024–2025: Worked in the Employment Team (Unit B6 – Industrial Strategy, Skills and Knowledge Transfer) on the impact of artificial intelligence on employment.
+      - 2021–2024: Led research in the DIGCLASS project on how digitalization transforms social class structures and welfare outcomes.
 
-  - position: Project Officer, Government of Spain
+  - position: Strategic Policy Analyst
     company_name: Office of Foresight and Strategy, Spanish Government’s Presidency
     company_url: https://www.futuros.gob.es/en/office
     company_logo: ''
