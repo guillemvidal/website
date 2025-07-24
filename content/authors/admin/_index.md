@@ -179,7 +179,7 @@ awards:
 
 ## About Me
 
-I’m a social scientist working at the intersection of political economy and public policy. My focus is on producing *actionable research to inform governments and institutions*.
+I’m a social scientist working at the intersection of political economy and public policy. My focus is on producing **actionable research to inform governments and institutions**.
 
 I’ve worked in both academia and the public sector, including roles at the Generalitat de Catalunya, the Spanish government, and the European Commission.
 
