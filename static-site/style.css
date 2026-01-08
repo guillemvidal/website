@@ -28,7 +28,7 @@ html {
 
 body {
     font-family: var(--font-main);
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 400;
     line-height: 1.7;
     color: var(--color-text);
@@ -183,7 +183,7 @@ section:last-of-type {
 .bio-container {
     display: flex;
     gap: 80px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .bio-image {
@@ -199,7 +199,6 @@ section:last-of-type {
 
 .bio-content {
     flex: 1;
-    padding-top: 20px;
 }
 
 .bio-content h1 {
