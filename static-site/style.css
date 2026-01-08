@@ -96,27 +96,14 @@ nav {
     margin: 0 auto;
     padding: 1.25rem var(--spacing-base);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-.logo {
-    font-family: var(--font-heading);
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: var(--color-primary);
-    text-decoration: none;
-}
-
-.logo:hover {
-    opacity: 1;
-    text-decoration: none;
 }
 
 .nav-menu {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .nav-menu a {
@@ -160,11 +147,15 @@ section:last-of-type {
 .bio-image {
     flex-shrink: 0;
     width: 280px;
+    height: 350px;
+    overflow: hidden;
 }
 
 .bio-image img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
     display: block;
 }
 
