@@ -11,6 +11,7 @@
     --color-muted: #555555;
     --color-light: #888888;
     --color-border: #e0e0e0;
+    --color-hover: #888888;
     --color-bg: #ffffff;
 
     /* Single elegant serif font for everything */
@@ -27,7 +28,7 @@ html {
 
 body {
     font-family: var(--font-main);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.7;
     color: var(--color-text);
@@ -45,19 +46,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     margin-bottom: 2rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1.5rem;
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 500;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 p {
@@ -72,6 +73,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    text-decoration-color: var(--color-hover);
 }
 
 strong {
@@ -107,7 +109,7 @@ nav {
 }
 
 .nav-menu a {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--color-text);
     text-decoration: none;
     padding-bottom: 2px;
@@ -116,11 +118,11 @@ nav {
 
 .nav-menu a:hover {
     text-decoration: none;
-    border-bottom: 1px solid var(--color-primary);
+    border-bottom: 1px solid var(--color-hover);
 }
 
 .nav-menu a.active {
-    border-bottom: 1px solid var(--color-primary);
+    border-bottom: 1px solid var(--color-hover);
 }
 
 /* Main content */
@@ -168,22 +170,22 @@ section:last-of-type {
 }
 
 .bio-content h1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
     font-weight: 400;
     margin-bottom: 1.5rem;
 }
 
 .intro-text {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 1.5;
     margin-bottom: 1.5rem;
     font-weight: 400;
 }
 
 .intro-subtext {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     line-height: 1.6;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .bio-footer {
@@ -207,7 +209,7 @@ section:last-of-type {
 .btn {
     display: inline-block;
     padding: 0.6rem 1.25rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: var(--font-main);
     color: var(--color-primary);
     background: transparent;
@@ -226,34 +228,42 @@ section:last-of-type {
 
 /* Research Section */
 .research-section h2 {
+    margin-bottom: 1.5rem;
+}
+
+.section-intro {
+    font-size: 1.2rem;
     margin-bottom: 2.5rem;
+    max-width: 800px;
 }
 
-.research-areas {
+.section-intro a {
+    text-decoration: underline;
+    text-decoration-color: var(--color-hover);
+}
+
+/* Research Grid - 3 columns like Linus */
+.research-grid {
     display: grid;
-    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
 }
 
-.research-item {
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid var(--color-border);
+.research-block {
+    padding-right: 1rem;
 }
 
-.research-item:last-child {
-    border-bottom: none;
-    padding-bottom: 0;
+.research-block h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
 }
 
-.research-item h3 {
-    font-size: 1.15rem;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-}
-
-.research-item p {
+.research-block p {
+    font-size: 1rem;
+    line-height: 1.6;
     color: var(--color-text);
     margin-bottom: 0;
-    font-size: 1rem;
 }
 
 /* Publications Section */
@@ -275,20 +285,20 @@ section:last-of-type {
 }
 
 .pub-authors {
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: var(--color-muted);
     margin-bottom: 0.25rem;
 }
 
 .pub-title {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: var(--color-primary);
     margin-bottom: 0.25rem;
 }
 
 .pub-venue {
-    font-size: 0.95rem;
+    font-size: 1rem;
     font-style: italic;
     color: var(--color-muted);
     margin-bottom: 0;
@@ -300,7 +310,7 @@ section:last-of-type {
 }
 
 .media-subsection {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 .media-subsection h3 {
@@ -309,7 +319,7 @@ section:last-of-type {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: var(--color-muted);
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
 }
 
 .media-list {
@@ -329,7 +339,7 @@ section:last-of-type {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 1rem 0;
+    padding: 0.6rem 0;
     text-decoration: none;
     gap: 1rem;
 }
@@ -340,16 +350,17 @@ section:last-of-type {
 
 .media-item a:hover .media-title {
     text-decoration: underline;
+    text-decoration-color: var(--color-hover);
 }
 
 .media-title {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     color: var(--color-primary);
     flex: 1;
 }
 
 .media-meta {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     color: var(--color-muted);
     white-space: nowrap;
 }
@@ -365,12 +376,13 @@ section:last-of-type {
 }
 
 .contact-section > p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
 
 .contact-section > p a {
     text-decoration: underline;
+    text-decoration-color: var(--color-hover);
 }
 
 .social-links {
@@ -387,11 +399,12 @@ section:last-of-type {
 
 .social-links a:hover {
     color: var(--color-primary);
+    text-decoration: none;
 }
 
 .social-links svg {
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
 }
 
 /* Footer */
@@ -400,7 +413,7 @@ footer {
     margin: 0 auto;
     padding: 2rem var(--spacing-base);
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: var(--color-muted);
 }
 
@@ -409,6 +422,10 @@ footer {
     :root {
         --spacing-section: 60px;
         --spacing-base: 24px;
+    }
+
+    body {
+        font-size: 18px;
     }
 
     h1 {
@@ -453,12 +470,28 @@ footer {
         justify-content: center;
     }
 
+    .research-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .research-block {
+        padding-right: 0;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .research-block:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
     .media-item a {
         flex-direction: column;
         gap: 0.25rem;
     }
 
     .media-meta {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
 }
