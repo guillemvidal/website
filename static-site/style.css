@@ -100,6 +100,39 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap: 2rem;
+}
+
+/* Language Toggle */
+.lang-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.lang-btn {
+    font-family: var(--font-main);
+    font-size: 0.95rem;
+    background: none;
+    border: none;
+    color: var(--color-muted);
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.2s ease;
+}
+
+.lang-btn:hover {
+    color: var(--color-primary);
+}
+
+.lang-btn.active {
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+.lang-sep {
+    color: var(--color-border);
+    font-size: 0.9rem;
 }
 
 .nav-menu {
@@ -461,13 +494,21 @@ footer {
     }
 
     nav {
-        justify-content: center;
+        justify-content: space-between;
+        gap: 1rem;
     }
 
     .nav-menu {
-        gap: 1.5rem;
-        flex-wrap: wrap;
-        justify-content: center;
+        gap: 1rem;
+        flex-wrap: nowrap;
+    }
+
+    .nav-menu a {
+        font-size: 0.95rem;
+    }
+
+    .lang-btn {
+        font-size: 0.85rem;
     }
 
     .research-grid {

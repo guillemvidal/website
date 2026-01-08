@@ -6,7 +6,7 @@
     <title>Guillem Vidal Lorda</title>
     <meta name="description" content="Social scientist and policy advisor working at the intersection of political economy and public policy.">
 
-    <!-- Fonts - simplified to one elegant serif -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -16,11 +16,16 @@
 <body>
     <header>
         <nav>
+            <div class="lang-toggle">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <span class="lang-sep">|</span>
+                <button class="lang-btn" data-lang="es">ES</button>
+            </div>
             <ul class="nav-menu">
-                <li><a href="#about" class="active">Home</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#media">Media</a></li>
+                <li><a href="#about" class="active" data-en="Home" data-es="Inicio">Home</a></li>
+                <li><a href="#research" data-en="Research" data-es="Investigación">Research</a></li>
+                <li><a href="#publications" data-en="Publications" data-es="Publicaciones">Publications</a></li>
+                <li><a href="#media" data-en="Media" data-es="Medios">Media</a></li>
                 <li><a href="https://guillemvidal.me/assets/pdf/CV_website/CV_website.pdf">CV</a></li>
             </ul>
         </nav>
@@ -34,13 +39,13 @@
                     <img src="avatar.jpg" alt="Guillem Vidal Lorda">
                 </div>
                 <div class="bio-content">
-                    <h1>Welcome</h1>
-                    <p class="intro-text">I am a social scientist working at the intersection of political economy and public policy.</p>
-                    <p class="intro-subtext">My focus is on producing actionable research to inform governments and institutions, especially on inequality, welfare, and socioeconomic policy.</p>
-                    <p class="intro-subtext">I have worked in both academia and the public sector, including roles at the <strong>Generalitat de Catalunya</strong>, the <strong>Spanish government</strong>, and the <strong>European Commission</strong>.</p>
-                    <p class="intro-subtext">I hold a Ph.D. in Social and Political Sciences from the <strong>European University Institute</strong>, with a background in economics and international relations.</p>
+                    <h1 data-en="Welcome" data-es="Bienvenido">Welcome</h1>
+                    <p class="intro-text" data-en="I am a social scientist working at the intersection of political economy and public policy." data-es="Soy un científico social que trabaja en la intersección de la economía política y las políticas públicas.">I am a social scientist working at the intersection of political economy and public policy.</p>
+                    <p class="intro-subtext" data-en="My focus is on producing actionable research to inform governments and institutions, especially on inequality and social policy." data-es="Mi enfoque es producir investigación aplicada para informar a gobiernos e instituciones, especialmente sobre desigualdad y política social.">My focus is on producing actionable research to inform governments and institutions, especially on inequality and social policy.</p>
+                    <p class="intro-subtext" data-en="I have worked in both academia and the public sector, including roles at the <strong>Generalitat de Catalunya</strong>, the <strong>Spanish government</strong>, and the <strong>European Commission</strong>." data-es="He trabajado tanto en el ámbito académico como en el sector público, incluyendo roles en la <strong>Generalitat de Catalunya</strong>, el <strong>Gobierno de España</strong> y la <strong>Comisión Europea</strong>.">I have worked in both academia and the public sector, including roles at the <strong>Generalitat de Catalunya</strong>, the <strong>Spanish government</strong>, and the <strong>European Commission</strong>.</p>
+                    <p class="intro-subtext" data-en="I hold a Ph.D. in Social and Political Sciences from the <strong>European University Institute</strong>, with a background in economics and international relations." data-es="Tengo un doctorado en Ciencias Sociales y Políticas por el <strong>Instituto Universitario Europeo</strong>, con formación en economía y relaciones internacionales.">I hold a Ph.D. in Social and Political Sciences from the <strong>European University Institute</strong>, with a background in economics and international relations.</p>
                     <div class="bio-footer">
-                        <p class="bio-note">On this website you can find information about my research, publications, media appearances and my CV.</p>
+                        <p class="bio-note" data-en="On this website you can find information about my research, publications, media appearances and my CV." data-es="En esta web puedes encontrar información sobre mi investigación, publicaciones, apariciones en medios y mi CV.">On this website you can find information about my research, publications, media appearances and my CV.</p>
                         <a href="https://guillemvidal.me/assets/pdf/CV_website/CV_website.pdf" class="btn">CV &rarr;</a>
                     </div>
                 </div>
@@ -49,57 +54,89 @@
 
         <!-- Research Section -->
         <section id="research" class="research-section">
-            <h2>Research</h2>
-            <p class="section-intro">I study how ordinary citizens engage with politics and how unequal lives produce divided worldviews. The following are central themes of my research. <a href="#publications">My publications are listed here</a>.</p>
+            <h2 data-en="Research" data-es="Investigación">Research</h2>
+            <p class="section-intro" data-en="My research examines how economic inequality shapes political behavior and policy outcomes in advanced democracies. The following are central themes of my research. <a href='#publications'>My publications are listed here</a>." data-es="Mi investigación examina cómo la desigualdad económica configura el comportamiento político y los resultados de las políticas en las democracias avanzadas. Los siguientes son temas centrales de mi investigación. <a href='#publications'>Mis publicaciones están listadas aquí</a>.">My research examines how economic inequality shapes political behavior and policy outcomes in advanced democracies. The following are central themes of my research. <a href="#publications">My publications are listed here</a>.</p>
 
             <div class="research-grid">
                 <div class="research-block">
-                    <h3>Political Economy</h3>
-                    <p>The transformations of advanced capitalism have produced "demobilized class societies": While inequalities are growing starkly, class conflict has become muted in the public sphere. How does this conjuncture reshape and limit how citizens critique inequality and what political futures they imagine? Which latent forms of class consciousness and classed politics arise?</p>
+                    <h3 data-en="Political Economy" data-es="Economía Política">Political Economy</h3>
+                    <p data-en="I study how economic growth is distributed across society and the political consequences of wealth inequality. My work explores how class structures are changing in the digital age, how citizens perceive and respond to inequality, and how the distribution of economic resources shapes political attitudes and behavior." data-es="Estudio cómo se distribuye el crecimiento económico en la sociedad y las consecuencias políticas de la desigualdad de riqueza. Mi trabajo explora cómo están cambiando las estructuras de clase en la era digital, cómo los ciudadanos perciben y responden a la desigualdad, y cómo la distribución de recursos económicos configura las actitudes y el comportamiento político.">I study how economic growth is distributed across society and the political consequences of wealth inequality. My work explores how class structures are changing in the digital age, how citizens perceive and respond to inequality, and how the distribution of economic resources shapes political attitudes and behavior.</p>
                 </div>
 
                 <div class="research-block">
-                    <h3>Social Policy</h3>
-                    <p>My work examines the design and implementation of social policies that address inequality, including universal basic income, wealth redistribution, and labor market interventions. I am particularly interested in how policy design shapes public attitudes toward redistribution and how simulation methods can inform evidence-based policymaking.</p>
+                    <h3 data-en="Social Policy" data-es="Política Social">Social Policy</h3>
+                    <p data-en="My work examines policies that address inequality, including universal basic income, universal inheritance, and wealth redistribution. I use simulation methods to assess the cost and distributive impact of such policies, and I study how policy design shapes public attitudes toward redistribution." data-es="Mi trabajo examina las políticas que abordan la desigualdad, incluyendo la renta básica universal, la herencia universal y la redistribución de la riqueza. Utilizo métodos de simulación para evaluar el coste y el impacto distributivo de estas políticas, y estudio cómo el diseño de políticas configura las actitudes públicas hacia la redistribución.">My work examines policies that address inequality, including universal basic income, universal inheritance, and wealth redistribution. I use simulation methods to assess the cost and distributive impact of such policies, and I study how policy design shapes public attitudes toward redistribution.</p>
                 </div>
 
                 <div class="research-block">
-                    <h3>Comparative Politics</h3>
-                    <p>Struggles over ecology, migration, recognition and insecurity are reshaping the landscape of political contestation in rich democracies. I am interested in the social alignments emerging in this process. In particular, I study how group identities anchor new political cleavages and how people's sense of who they are shapes where they stand on contentious issues.</p>
+                    <h3 data-en="Comparative Politics" data-es="Política Comparada">Comparative Politics</h3>
+                    <p data-en="I study how group identities anchor political cleavages and how people's sense of who they are shapes where they stand on contentious issues. My research explores political persuasion, populism, and how struggles over recognition, migration, and insecurity are reshaping political contestation in rich democracies." data-es="Estudio cómo las identidades grupales anclan los clivajes políticos y cómo el sentido de identidad de las personas configura su posición en temas controvertidos. Mi investigación explora la persuasión política, el populismo y cómo las luchas por el reconocimiento, la migración y la inseguridad están reconfigurando la contestación política en las democracias ricas.">I study how group identities anchor political cleavages and how people's sense of who they are shapes where they stand on contentious issues. My research explores political persuasion, populism, and how struggles over recognition, migration, and insecurity are reshaping political contestation in rich democracies.</p>
                 </div>
             </div>
         </section>
 
         <!-- Publications Section -->
         <section id="publications" class="publications-section">
-            <h2>Publications</h2>
+            <h2 data-en="Publications" data-es="Publicaciones">Publications</h2>
 
             <div class="publication-list">
                 <article class="publication">
-                    <p class="pub-authors">Vidal, G., Thiemann, A., Salazar, L., Noguera, J.A.</p>
-                    <p class="pub-title">Bridging the wealth gap: Simulating universal inheritance in four EU countries</p>
-                    <p class="pub-venue">Journal of European Social Policy, 2025</p>
+                    <a href="https://journals.sagepub.com/doi/abs/10.1177/09589287241311147" target="_blank">
+                        <p class="pub-authors">Vidal, G., Thiemann, A., Salazar, L., Noguera, J.A.</p>
+                        <p class="pub-title">Bridging the wealth gap: Simulating universal inheritance in four EU countries</p>
+                        <p class="pub-venue">Journal of European Social Policy, 2025</p>
+                    </a>
                 </article>
 
                 <article class="publication">
-                    <p class="pub-authors">Gil-Hernández, C.J., Salas-Rojo, P., Vidal, G., Villani, D.</p>
-                    <p class="pub-title">Wealth and income stratification by social class in five European countries</p>
-                    <p class="pub-venue">Social Indicators Research, 2025</p>
+                    <a href="https://link.springer.com/article/10.1007/s11205-025-03532-x" target="_blank">
+                        <p class="pub-authors">Gil-Hernández, C.J., Salas-Rojo, P., Vidal, G., Villani, D.</p>
+                        <p class="pub-title">Wealth and income stratification by social class in five European countries</p>
+                        <p class="pub-venue">Social Indicators Research, 2025</p>
+                    </a>
                 </article>
 
                 <article class="publication">
-                    <p class="pub-authors">Gil-Hernández, C.J., Vidal, G., Torrejón Perez, S.</p>
-                    <p class="pub-title">Technological change, tasks and class inequality in Europe</p>
-                    <p class="pub-venue">Work, Employment and Society, 2024</p>
+                    <a href="https://journals.sagepub.com/doi/10.1177/09500170231155783" target="_blank">
+                        <p class="pub-authors">Gil-Hernández, C.J., Vidal, G., Torrejón Perez, S.</p>
+                        <p class="pub-title">Technological change, tasks and class inequality in Europe</p>
+                        <p class="pub-venue">Work, Employment and Society, 2024</p>
+                    </a>
+                </article>
+
+                <article class="publication">
+                    <a href="https://ejpr.onlinelibrary.wiley.com/doi/10.1111/1475-6765.12592" target="_blank">
+                        <p class="pub-authors">Barbet, B., De Moragas, A.I., Vidal, G.</p>
+                        <p class="pub-title">Stories beat experts: A survey experiment on political persuasiveness</p>
+                        <p class="pub-venue">European Journal of Political Research, 2024</p>
+                    </a>
                 </article>
             </div>
 
-            <a href="https://scholar.google.com/citations?user=QOsowRMAAAAJ&hl=en" class="btn">All publications &rarr;</a>
+            <a href="https://scholar.google.com/citations?user=QOsowRMAAAAJ&hl=en" class="btn" data-en="All publications &rarr;" data-es="Todas las publicaciones &rarr;">All publications &rarr;</a>
         </section>
 
         <!-- Media Section -->
         <section id="media" class="media-section">
-            <h2>Media</h2>
+            <h2 data-en="Media" data-es="Medios">Media</h2>
+
+            <div class="media-subsection">
+                <h3>Blog</h3>
+                <div class="media-list">
+                    <article class="media-item">
+                        <a href="https://contramovimiento.substack.com" target="_blank">
+                            <span class="media-title">Contramovimiento (Substack) &rarr;</span>
+                            <span class="media-meta" data-en="Reflections on political economy" data-es="Reflexiones sobre economía política">Reflections on political economy</span>
+                        </a>
+                    </article>
+                    <article class="media-item">
+                        <a href="https://politikon.es/author/guillemvidal/" target="_blank">
+                            <span class="media-title">Politikon &rarr;</span>
+                            <span class="media-meta" data-en="All articles" data-es="Todos los artículos">All articles</span>
+                        </a>
+                    </article>
+                </div>
+            </div>
 
             <div class="media-subsection">
                 <h3>Op-eds</h3>
@@ -152,65 +189,11 @@
                             <span class="media-meta">eldiario.es, 2014</span>
                         </a>
                     </article>
-                    <article class="media-item">
-                        <a href="http://www.eldiario.es/agendapublica/nueva-politica/elecciones-sirven-castigar-politicos-merecen_0_251974853.html" target="_blank">
-                            <span class="media-title">¿Qué pasa cuando las elecciones no sirven para castigar a los políticos?</span>
-                            <span class="media-meta">eldiario.es, 2014</span>
-                        </a>
-                    </article>
                 </div>
             </div>
 
             <div class="media-subsection">
-                <h3>Politikon</h3>
-                <div class="media-list">
-                    <article class="media-item">
-                        <a href="http://politikon.es/2017/03/14/elecciones-en-paises-bajos-claves-para-entender-el-voto-a-wilders/" target="_blank">
-                            <span class="media-title">Elecciones en Países Bajos: Claves para entender el voto a Wilders</span>
-                            <span class="media-meta">2017</span>
-                        </a>
-                    </article>
-                    <article class="media-item">
-                        <a href="http://politikon.es/2016/03/14/rufian-la-transversalidad-del-independentismo-y-el-tokenismo/" target="_blank">
-                            <span class="media-title">Rufián, la transversalidad del independentismo y el tokenismo</span>
-                            <span class="media-meta">2016</span>
-                        </a>
-                    </article>
-                    <article class="media-item">
-                        <a href="http://politikon.es/2015/10/23/los-determinantes-del-independentismo-en-cataluna/" target="_blank">
-                            <span class="media-title">Los determinantes del independentismo en Cataluña</span>
-                            <span class="media-meta">2015</span>
-                        </a>
-                    </article>
-                    <article class="media-item">
-                        <a href="http://politikon.es/2015/07/06/grexit-voice-and-loyalty/" target="_blank">
-                            <span class="media-title">(Gr)Exit, Voice and Loyalty</span>
-                            <span class="media-meta">2015</span>
-                        </a>
-                    </article>
-                    <article class="media-item">
-                        <a href="http://politikon.es/2015/03/19/populismo-una-ideologia-delgada/" target="_blank">
-                            <span class="media-title">Populismo… ¿una ideología delgada?</span>
-                            <span class="media-meta">2015</span>
-                        </a>
-                    </article>
-                    <article class="media-item">
-                        <a href="http://politikon.es/2015/02/02/m5s-podemos-y-syriza-ideologia-populista/" target="_blank">
-                            <span class="media-title">M5S, Podemos y Syriza: ¿Ideología Populista?</span>
-                            <span class="media-meta">2015</span>
-                        </a>
-                    </article>
-                    <article class="media-item">
-                        <a href="https://politikon.es/author/guillemvidal/#" target="_blank">
-                            <span class="media-title">All Politikon articles &rarr;</span>
-                            <span class="media-meta"></span>
-                        </a>
-                    </article>
-                </div>
-            </div>
-
-            <div class="media-subsection">
-                <h3>In the press</h3>
+                <h3 data-en="In the press" data-es="En prensa">In the press</h3>
                 <div class="media-list">
                     <article class="media-item">
                         <a href="https://www.infolibre.es/noticias/politica/2019/01/30/del_green_new_deal_los_verdes_alemanes_esta_reverdeciendo_ecologismo_politico_mundo_91162_1012.html" target="_blank">
@@ -243,21 +226,9 @@
                         </a>
                     </article>
                     <article class="media-item">
-                        <a href="http://www.trouw.nl/tr/nl/4496/Buitenland/article/detail/3848299/2015/02/10/Het-Tsiglesias-effect.dhtml" target="_blank">
-                            <span class="media-title">Het Tsiglesias-effect</span>
-                            <span class="media-meta">Trouw, 2015</span>
-                        </a>
-                    </article>
-                    <article class="media-item">
                         <a href="http://www.infolibre.es/noticias/mundo/2015/01/24/una_victoria_syriza_dia_1_27207_1022.html" target="_blank">
                             <span class="media-title">El día 1 tras una victoria de Syriza</span>
                             <span class="media-meta">Infolibre, 2015</span>
-                        </a>
-                    </article>
-                    <article class="media-item">
-                        <a href="http://www.infolibre.es/noticias/politica/2014/12/19/podemos_syriza_parecidos_diferencias_25646_1012.html" target="_blank">
-                            <span class="media-title">Podemos y Syriza: programas "idénticos", estructuras muy diferentes</span>
-                            <span class="media-meta">Infolibre, 2014</span>
                         </a>
                     </article>
                 </div>
@@ -266,7 +237,7 @@
 
         <!-- Contact Section -->
         <section id="contact" class="contact-section">
-            <h2>Contact</h2>
+            <h2 data-en="Contact" data-es="Contacto">Contact</h2>
             <p><a href="mailto:guillemvidal@gencat.cat">guillemvidal@gencat.cat</a></p>
             <div class="social-links">
                 <a href="https://bsky.app/profile/guillemvidal.me" aria-label="Bluesky">
@@ -293,7 +264,30 @@
     </footer>
 
     <script>
-        // Simple script to update active nav link based on scroll position
+        // Language toggle
+        const langBtns = document.querySelectorAll('.lang-btn');
+        let currentLang = 'en';
+
+        langBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const lang = btn.dataset.lang;
+                if (lang === currentLang) return;
+
+                currentLang = lang;
+                document.documentElement.lang = lang;
+
+                // Update active button
+                langBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                // Update all translatable elements
+                document.querySelectorAll('[data-en][data-es]').forEach(el => {
+                    el.innerHTML = el.dataset[lang];
+                });
+            });
+        });
+
+        // Active nav link on scroll
         const sections = document.querySelectorAll('section[id]');
         const navLinks = document.querySelectorAll('.nav-menu a');
 
