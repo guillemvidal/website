@@ -48,6 +48,6 @@ sections:
         folders:
           - event
     design:
-      view: compact
+      view: card
       columns: 1
 ---
