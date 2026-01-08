@@ -5,17 +5,17 @@
 
 # Appearance
 appearance:
-  mode: system
-  color: emerald
+  mode: light
+  color: minimal
 
 # SEO
 marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    org_name: 'Guillem Vidal Lorda'
+    description: 'Guillem Vidal Lorda - Social scientist and policy advisor working at the intersection of political economy and public policy. Research on inequality, welfare, and socioeconomic policy.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -32,17 +32,17 @@ header:
     enable: true
     blox: "navbar"
     fixed_to_top: true
-    show_search: true
-    show_theme_chooser: true
+    show_search: false
+    show_theme_chooser: false
     logo:
-      text: "Your Name"
+      text: "Guillem Vidal Lorda"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Guillem Vidal Lorda'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
